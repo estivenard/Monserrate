@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" http-equiv="Content-Type" content="text/html"; charset=UTF-8>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://ajax.actividadesapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="social-share.css">
 
 
@@ -20,40 +21,160 @@ body {
   background-size: cover;
   background-color: #464646;
 }
- body {margin:0;height:2000px;
+ body {margin:0;height:1000px;
  }
+   .login-container{
+    margin-top: -118%;
+    margin-bottom: 0%;
+    margin-left: 130%;
+}
+.login-form-2{
+    padding: 5%;
+}
+.login-form-2 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color: black;
+}
+.btnSubmit{
+    font-weight: 600;
+    width: 50%;
+    color: black;
+    background-color: orange;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+.btnForgetPwd{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
 
 </style>
    
 <ul class="ct-socials">
   <li>
-    <a href="planes.html" target="red"><center><i class="fa fa-calendar"></center></i></a>
+    <a target="red"><center><i class="fa fa-calendar bg-light"  data-toggle="modal" data-target="#mymodal" title="Calendario"></center></i></a>
   </li>
   <li>
-    <a href="/" target="_blank"><i class="fa fa-bus"></i></a>
+    <a target="red"><center><i class="fa fa-bus bg-light" data-toggle="modal" data-target="#mymodal2" title="Transporte"></center></i></a>
   </li>
   <li>
-    <a href="/" target="_blank"><i class="fa fa-map-marker"></i></a>
+    <a target="red"><center><i class="fa fa-map-marker bg-light" data-toggle="modal" data-target="#mymodal1" title="Mapa"></center></i></a>
   </li>
   <li>
-    <a href="/" target="_blank"><i class="fa fa-bullhorn"></i></a>
-  </li>
-  <li>
-    <a href="/" target="_blank"><i class="fa fa-book"></i></a>
+    <a target="red"><center><i class="fa fa-bullhorn bg-light" data-toggle="modal" data-target="#mymodal3" title="Noticias"></center></i></a>
   </li>
 </ul>
 <section class="section triad-section">
   <br><br>
   <div class="container">
     <div class="row">
-      <div class="col-md-3 triad-sub-section">
-        <p class="detail-paragraph"><strong>Monserrate</strong></p>
-        <p></p>
-        <p class="detail-paragraph"><strong>Historia</strong></p>
-        <p></p>
+      <div class="col-md-7 triad-sub-section">
+        <p class="detail-paragraph"><strong><h3>Monserrate</h3></strong></p>
+        <p><font color="black"><center><strong>El cerro de Monserrate es el más conocido de los cerros Orientales de Bogotá. Junto a Guadalupe es uno de los cerros titulares de la ciudad. Monserrate tiene una altitud de 3152 metros y se ubica sobre la cordillera oriental. Los cerros de Bogotá, de origen sedimentario, tienen por lo menos 16 millones de años de antigüedad, con rocas de edad cretácica pertenecientes al Grupo guadalupe, en lo que se refiere al aspecto geológico. Hasta mediados del siglo XVII fue conocido como cerro de Las Nieves. La basílica del Señor de Monserrate ha sido lugar de peregrinación religiosa desde la época colonial y se constituye en un atractivo natural, religioso, gastronómico de la ciudad. Se puede ascender al cerro por el sendero peatonal, por teleférico o por funicular.</center></strong></p></font>
+        <p class="detail-paragraph"><strong><h3>Historia</h3></strong></p>
+        <p><font color="black"><center><strong>El cerro de Monserrate, ubicado al oriente del Distrito Capital Colombiano, es una de las formaciones más reconocibles de la sabana de Bogotá, así como uno de los símbolos de la ciudad. Perteneciente a los cerros Orientales. El conquistador español Gonzalo Jiménez de Quesada fundó el primer asentamiento español en la región de Bacatá, en la actual carrera Segunda con calle Trece, no lejos del Chorro de Quevedo, que posteriormente se llamó Pueblo Viejo, entonces conocido como Teusaquillo </center></strong></p></font>
+        <p class="detail-paragraph"><strong><h3>El Santuario</h3></strong></p>
+        <p><font color="black"><center><strong>El cerro ha sido el lugar de peregrinación por excelencia de la ciudad, donde se encuentra la Basílica menor de Monserrate, que guarda en su interior una talla del siglo XVI del Señor Caído, al que se le atribuye poderes curativos, por lo que es común ver feligreses entrando de rodillas al santuario hasta llegar a la figura sagrada.
+        La devoción que inspira el Señor Caído hace que el domingo, día sagrado para los católicos, sea el de más cantidad de romería, así como por la época de Semana Santa. </center></strong></p></font>
+        <div class="container login-container">
+            <div class="row">
+                <div class="col-md-6 login-form-2">
+                    <div class="login-logo">
+                    </div>
+                    <h5><b><i><center><font color="yellow">Para descubrir planes y realizar tus reservas por favor <br>Inicia Sesión</font></center></b></h5>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Digite su correo *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Digite su contraseña *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Login" />
+                        </div>
+                        <font color="black" size="3"><i><b>Si aún no te encuentras registrado da click <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mymodal4"><b><font face="cursive" size="2"> AQUÍ </a></font></b>
+                                <div class="container">
+            </button>       
+    <div class="modal" id="mymodal4">
+     <center> <div class="modal-dialog">
+        <div class="modal-content bg-info">
+          <div class="modal-header bg-warning">
+            <h4 class="modal-tittle"><font color="black" face="cursive"><b>BIENVENIDO</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+        <form action="bd_proveedores.php" method="post">
+          <br>POR FAVOR COMPLETE LOS SIGUIENTES CAMPOS<br><br>
+        <input name="Nombre" type="text" placeholder="Digite su nombre">
+        <br><br>
+        <input name="Cedula" type="text" placeholder="Digite su cedula">
+        <br><br>
+        <input name="Direccion" type="text" placeholder="Digite su direccion">
+        <br><br>
+        <input name="Correo" type="email" placeholder="Digite su correo">
+        <br><br>
+        <input name="Contraseña" type="password" placeholder="Digite su contraseña">
+        <br><br>
+        <input type="submit" value="Registrarse">
+        <br><br>
+    </form>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
       </div>
     </div>
   </div>
+  <div class="container">
+            <center><br><br>      
+    <div class="modal" id="mymodal">
+                <img src="Calendario-colombia-2020.jpg"> 
+                </div>    </center>
+<center><br><br><br><div class="modal" id="mymodal1"><br><br><br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d15907.739245040628!2d-74.0642802811419!3d4.6056940849727654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8e3f99bfd2a459a9%3A0x352a5134b65e607b!2sMonserrate%2C%20Bogot%C3%A1%2C%20Cundinamarca!3m2!1d4.6056728!2d-74.0555255!5e0!3m2!1ses!2sco!4v1575941215486!5m2!1ses!2sco" width="800" height="450" frameborder="0" style="border:40;" allowfullscreen=""></iframe>
+  </center></div>
+  <br><br><div class="modal" id="mymodal2">
+                      <div class="modal-header">
+                                <div class="modal-content bg-info">
+          <div class="modal-header bg-warning">
+                        TRANSPORTE
+                          <button type="button" class="close" data-dismiss="modal">&times;
+                          </button>
+                      </div>
+                      <center>
+                      <h2><b>Teleférico</b></h2>
+                      <table>
+                        <tr>
+                        <td width="50%" height="50%">
+                      <center><img src="tel.jpeg" width="60%" height="60%"></center><br>
+                    </td><td>
+          Ofrece una imponente vista del Cerro que contrasta con la hermosa <br>panorámica de la ciudad. La vegetación tupida de los altos árboles que al <br>pasar lentamente sobre sus copas, nos dejan una sensación de contacto <br>directo entre la tierra y el cielo.</td></tr></table>
+           <h2><b>Sendero Peatonal</b></h2>
+           <table>
+                        <tr>
+                        <td width="50%" height="50%">
+                      <center><img src="sen.jpg" width="60%" height="60%"></center><br>
+                    </td>
+                    <td>
+          El sendero peatonal de Monserrate es un camino de 2.350 metros de <br>longitud y 1.605 escalones que conduce a la cima del cerro.
+              </center></td></tr></table>
+</div>
 </section>
+ <div class="modal" id="mymodal3">
+     <center> <div class="modal-dialog">
+        <div class="modal-content bg-light">
+          <div class="modal-header bg-warning">
+            <h4 class="modal-tittle"><font color="black" face="cursive"><b><center><br>BIENVENIDO<br></center></h4><h6>En este apartado encontrarás algunos Links que te llevarán a las ultimas noticias acerca de Monserrate</h6>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <font color="white">
+          <br><a href="https://www.eltiempo.com/opinion/columnistas/fernando-quiroz/maravillosa-bogota-columna-de-fernando-quiroz-442030"><li>MARAVILLOSA BOGOTÁ</li></a><br><br>
+          <a href="https://www.eltiempo.com/bogota/distrito-abre-concurso-para-mejorar-oferta-turistica-en-monserrate-431062"><li>OFERTA TURISTICA EN MONSERRATE</li></a><br><br>
+          <a href="https://www.eltiempo.com/vida/viajar/alumbrados-en-bogota-medellin-y-otras-ciudades-en-2019-440434"><li>ALUMBRADOS NAVIDEÑOS</li> </a><br><br>
+          <a href="https://www.eltiempo.com/vida/ciencia/es-el-cerro-de-monserrate-un-volcan-409450"><li>¿ES MONSERRATE UN VOLCÁN?</li></a>
+        <br><br>
+        </font>
 </body>
 </html> 
